@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python3 -m pytest tests/test_config.py -v)",
+      "Bash(./run_tests.sh)",
+      "Bash(pip install:*)",
+      "Bash(python3:*)",
+      "Bash(source:*)",
+      "Bash(cp:*)"
+    ],
+    "deny": []
+  }
+}
